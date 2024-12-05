@@ -84,3 +84,6 @@ map <leader>m :TagbarToggle<CR>
 let g:gutentags_cache_dir = "~/.cache/tags"
 let g:gutentags_modules = ['ctags']
 
+set cc=80
+set cursorline
+set nu
