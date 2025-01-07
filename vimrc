@@ -1,3 +1,7 @@
+" set ch encoding
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,gbk,gb2312,latin1
+set cc=80
 set nocompatible                                  " 设置不兼容原始vi模式
 set number                                        " 显示行号
 set cursorline                                    " 高亮当前行
@@ -23,7 +27,7 @@ map <C-k> <C-W>k
 map <C-l> <C-W>l
 
 " gf命令文件跳转路径
-set path+=/Library/Developer/CommandLineTools/usr/include/c++/v1
+" set path+=/Library/Developer/CommandLineTools/usr/include/c++/v1
 
 call plug#begin()
 	Plug 'morhetz/gruvbox'              " 主题
